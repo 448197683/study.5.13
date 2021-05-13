@@ -1,0 +1,14 @@
+div {
+  height: 200px;
+  width: 200px;
+  background-color: cornflowerblue;
+  transition-property: background-color, font-size;
+  transition-duration: 0.5s;
+  transition-timing-function: cubic-bezier(0.9, -0.9, 0.265, 3);
+}
+div:hover {
+  background-color: crimson;
+  font-size: 30px;
+  cursor: help;
+  border-radius: 50%;
+}
